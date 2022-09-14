@@ -12,10 +12,32 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
+}
+
+.bg-sedans {
+    background-color: orange;
+    height: 100%;
+}
+
+.bg-SUV {
+    background-color: darkcyan;
+    height: 100%;
+}
+
+.bg-luxury {
+    background-color: seagreen;
+    height: 100%;
 }
 
 .attribution {
-    display:flex;
+    display:flex;  
     justify-content: center;
     align-items: flex-end;
+}
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
 }
